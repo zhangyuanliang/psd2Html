@@ -1,0 +1,43 @@
+/*
+* @Author: zhangyl
+* @Date:   2018-02-27 21:22:50
+* @Last Modified by:   zhangyl
+* @Last Modified time: 2018-02-28 22:05:04
+*/
+
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, form, input, textarea, a, p { 
+	padding: 0; 
+	margin: 0; 
+	font-family: Helvetica;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+img {
+	border: none;
+	display: block;
+}
+
+.clearfloat {
+	zoom: 1;
+}
+
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: '';
+	visibility: hidden;
+	height: 0;
+}

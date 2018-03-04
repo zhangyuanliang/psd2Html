@@ -1,0 +1,245 @@
+/*
+* @Author: zhangyl
+* @Date:   2018-02-27 21:23:52
+* @Last Modified by:   zhangyl
+* @Last Modified time: 2018-03-04 11:26:48
+*/
+
+.index-banner {
+	position: relative;
+}
+
+.index-banner .banner-bg {
+	height: 570px;
+	overflow: hidden;
+}
+
+.index-banner .banner-text {
+	position: absolute;
+	top: 208px;
+	left: 50%;
+	margin-left: -388px;
+	color: #fff;
+}
+
+.index-banner .banner-text .text-logo {
+	width: 776px;
+	height: 104px;
+	background: url('../images/text-logo.png');
+}
+
+.index-banner .banner-text .text-info {
+	text-align: center;
+	margin-top: 26px;
+}
+
+.info-line-l, .info-line-r {
+	display: inline-block;
+	width: 42px;
+	border: 1px solid #fff;
+	vertical-align: middle;
+}
+
+.txt {
+	margin: 0 26;
+}
+
+/* 菜单 */
+.menu-tips {
+	border-top: 4px solid #f34949;
+	height: 70px;
+	position: relative;
+}
+
+.menu-tips .tips-btn {
+	position: absolute;
+	height: 70px;
+	width: 156px;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	background: #f34949;
+	line-height: 60px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+.menu-tips .tips-btn:after {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid #fff;
+}
+
+.index-menu .menu-list {
+	margin-top: 82px;
+	color: #555;
+	overflow: hidden;
+}
+
+.index-menu .menu-list ul {
+	width: 1160px;
+}
+
+.index-menu .menu-list .menu-item {
+	float: left;
+	width: 520px;
+	height: 96px;
+	margin-right: 60px; 
+}
+
+.menu-list .title, .menu-list .line {
+	float: left;
+}
+
+.menu-list .title {
+	width: 230px;
+	color: #555;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.menu-list .comment {
+	font-size: 12px;
+	color: #b7b7b7;
+	margin-top: 10px;
+}
+.menu-list .line {
+	width: 192px;
+	border-top: 1px solid #e3e1e1;
+	margin-top: 4px;
+}
+
+.menu-list .price {
+	float: right;
+}
+
+.index-menu .load-more-btn {
+	margin: 0 auto;
+	width: 114px;
+	height: 32px;
+	line-height: 32px;
+	color: #b7b7b7;
+	font-size: 14px;
+	border: 1px solid #d7d5d5;
+	padding-left: 16px;
+	margin-top: 30px;
+	margin-bottom: 200px;
+}
+
+.load-more-btn span {
+	display: inline-block;
+	margin-right: 9px;
+}
+
+.load-more-btn .load-more-icon {
+	width: 11px;
+	height: 7px;
+	background: url('../images/load-more.png');
+}
+
+.index-panel {
+	margin-bottom: 200px;
+}
+
+.index-panel-header h3 {
+	float: left;
+	margin-right: 50px;
+	font-weight: normal;
+}
+
+.index-panel-header .line {
+	float: left;
+	margin-top: 7px;
+	width: 200px;
+	border-top: 1px solid #e5e3e3;
+}
+
+.index-panel-header .btn-group {
+	float: right;
+	font-size: 0;
+}
+
+.index-panel-header .btn-group .btn {
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	margin-left: 11px;
+	background: #dedede;
+}
+
+.index-panel-header .btn-group .btn.active {
+	background: #9b9b9b;
+}
+
+.index-panel-body {
+	margin-top: 78px;
+}
+
+.index-food-list {
+	overflow: hidden;
+}
+
+.index-food-list ul {
+	width: 1160px;
+}
+
+.index-food-list .food-item {
+	float: left;
+	width: 230px;
+	margin-right: 60px;
+}
+
+.index-food-list .food-item .name {
+	margin-top: 30px;
+	color: #555;
+}
+
+.index-food-list .food-item .price {
+	float: right;
+}
+
+.index-food-list .food-item .star-bar {
+	margin-top: 11px;
+	font-size: 0;
+}
+
+.food-item .star-bar .star {
+	display: inline-block;
+	margin-right: 5px;
+	width: 12px;
+	height: 13px;
+	background: url('../images/star.png');
+	background-repeat: no-repeat;
+}
+
+.food-item .star-bar .nostar {
+	background-position: 0 -13px;
+}
+
+.panel-pics .panel-pic {
+	float: left;
+	height: 381px;
+	width: 1100px;
+	overflow: hidden;
+}
+
+.panel-pics .panel-pic-m {
+	width: 353px;
+}
+
+.panel-pics .panel-pic-l {
+	width: 287px;
+}
+
+.panel-pics .panel-pic-b {
+	width: 460px;
+}
